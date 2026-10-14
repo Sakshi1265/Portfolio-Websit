@@ -1,96 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sakshi Singh | Portfolio</title>
+    <title>Sakshi Singh | Portfolio </title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header class="navbar">
+        <a href="#home" class="logo">SS</a>
 
-<header>
-    <nav>
-        <h2>Sakshi Singh</h2>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
 
-<section id="home" class="hero">
-    <div>
-        <h1>Hello, I'm <span>Sakshi Singh</span></h1>
-        <h2>Computer Science Engineer</h2>
-        <p>
-            I am interested in Software Development, Python,
-            SQL and Data Analytics.
-        </p>
+                <div class="floating-symbol symbol-one">&lt;/&gt;</div>
+                <div class="floating-symbol symbol-two">{ }</div>
+                <div class="floating-symbol symbol-three">✦</div>
 
-        <a href="#projects" class="btn">View My Projects</a>
-    </div>
-</section>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a B.Tech Computer Science and Engineering graduate.
-        I enjoy learning new technologies and building practical
-        projects. I am looking for an opportunity to start my
-        career in the IT industry.
-    </p>
-</section>
+                <p class="greeting">HELLO, WELCOME TO MY PORTFOLIO</p>
 
-<section id="skills">
-    <h2>My Skills</h2>
+                <h1>Hi, I'm <span>Sakshi Singh</span></h1>
 
-    <div class="skills-container">
-        <div>Python</div>
-        <div>Java</div>
-        <div>SQL</div>
-        <div>HTML & CSS</div>
-        <div>JavaScript</div>
-        <div>Git & GitHub</div>
-    </div>
-</section>
+                <h2>Aspiring Full Stack Developer</h2>
 
-<section id="projects">
-    <h2>My Projects</h2>
+                <p class="intro">
+                    I am a Computer Science graduate with knowledge of frontend
+                    and backend development. I have worked with HTML, CSS,
+                    JavaScript, Java, Spring Boot, and SQL. I enjoy building
+                    user-friendly web applications and continuously improving
+                    my technical skills.
+                </p>
 
-    <div class="project">
-        <h3>Student Performance Analysis</h3>
-        <p>
-            A data analytics project to analyze student performance
-            using Python and data visualization.
-        </p>
-    </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        View My Projects
+                    </a>
 
-    <div class="project">
-        <h3>Chatbot</h3>
-        <p>
-            A chatbot project developed using web technologies
-            to provide interactive responses.
-        </p>
-    </div>
-</section>
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
 
-<section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: your-email@gmail.com</p>
-    <p>GitHub: Your GitHub Profile</p>
-    <p>LinkedIn: Your LinkedIn Profile</p>
-</section>
+        </section>
 
-<footer>
-    <p>© 2026 Sakshi Singh. All Rights Reserved.</p>
-</footer>
 
-<script src="script.js"></script>
+        <section id="about" class="about section">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Get to know me</p>
+            </div>
 
+            <div class="about-content">
+                <h3>Aspiring Full Stack Developer</h3>
+                <p>
+                    I am a Computer Science graduate with knowledge of
+                    frontend and backend development. I have learned HTML,
+                    CSS, JavaScript, Java, Spring Boot, and SQL. I enjoy
+                    creating web applications and improving my technical skills.
+                </p>
+            </div>
+        </section>
+
+
+        <section id="skills" class="skills section">
+            <div class="section-title">
+                <h2>My Skills</h2>
+                <p>Technologies I have learned</p>
+            </div>
+
+            <div class="skills-container">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Java</div>
+                <div class="skill-card">Spring Boot</div>
+                <div class="skill-card">SQL</div>
+            </div>
+        </section>
+
+
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+            <p>Here are some projects I have worked on.</p>
+
+            <div class="projects-container">
+                <div class="project-card">
+                    <h3>Chatbot Web Application</h3>
+                    <p>
+                        A simple chatbot built using HTML, CSS, and JavaScript
+                        to interact with users.
+                    </p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Student Performance Analysis</h3>
+                    <p>
+                        A project focused on analyzing student performance
+                        and understanding academic results.
+                    </p>
+                    <p><strong>Technologies:</strong> Python, Pandas, Matplotlib, Seaborn, CSV file</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        A personal website to showcase my skills, projects,
+                        education, and contact information.
+                    </p>
+                    <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <h3>B.Tech in Computer Science and Engineering</h3>
+            <p>Shri Ramswaroop Memorial University</p>
+        </section>
+
+
+        <section id="internship" class="section">
+            <h2>Internship</h2>
+            <h3>Java Full Stack Intern</h3>
+            <p>Soft Nexis Technology</p>
+            <p>Duration: 1 Month</p>
+            <p>
+                Learned and practiced Java, Spring Boot, SQL,
+                HTML, CSS, and JavaScript.
+            </p>
+        </section>
+
+        <section id="certifications" class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Web Development and Content Management Systems</li>
+                <li>Cybersecurity Job Simulation - Forage</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Email:
+                <a href="mailto:YOUR_EMAIL@example.com">
+                    singh.sakshi2315@gmail.com
+                </a>
+            </p>
+            <p>
+                LinkedIn:
+                <a href="https://www.linkedin.com/in/sakshi-singh-851626419" target="_blank">
+                    Visit My LinkedIn
+                </a>
+            </p>
+            <p>
+                GitHub:
+                <a href="https://github.com/Sakshi1265" target="_blank">
+                    Visit My GitHub
+                </a>
+            </p>
+        </section>
+
+        <footer>
+            <p>© 2026 My Portfolio. All rights reserved.</p>
+        </footer>
+
+    </main>
+    <script src="script.js"></script>
 </body>
+
 </html>
